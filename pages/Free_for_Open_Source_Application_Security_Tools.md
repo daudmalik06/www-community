@@ -252,9 +252,18 @@ Commercial tools of this type that are free for open source:
         known vulns) free to search:
         <https://www.sourceclear.com/vulnerability-database/search#_>
         (Very useful when trying to research a particular library)
-  - [Vulert](https://vulert.com) - Supports Node.js, Ruby, Java, Python, Scala, Golang, .Net, PHP
-      - A Commercial tool that identifies vulnerable components. It is free for open
-        source.
+  - [Vulert](https://vulert.com) An SCA solution that seamlessly monitors applications for open-source vulnerabilities **without requiring code access or installations**, providing real-time alerts. It supports a wide range of programming languages, including Node.js, Ruby, Java, Python, Scala, Golang, .Net, PHP, and C/C++.
+    - Vulert Vulnerability Database
+      - Vulert's advanced vulnerability database is publicly accessible, enabling users to search for vulnerabilities associated with any open-source package or CVE. Additionally, it suggests workarounds to users when possible. For example, see [https://vulert.com/vuln-db/CVE-2023-31719](https://vulert.com/vuln-db/CVE-2023-31719) for details.
+      - Check it out at: [https://vulert.com/vuln-db](https://vulert.com/vuln-db)
+
+    - **How It Works:** 
+      - Vulert only requires a manifest file, such as package-lock.json or an SBOM, to track your dependencies, ensuring maximum privacy.
+      - It is compatible with all CI/CD tools to integrate dependency monitoring into your automated workflow seamlessly.
+
+    - **Vulert Playground**
+      - Experience the capabilities of Vulert at its playground: [https://vulert.com/abom](https://vulert.com/abom)
+    - It's free for open source projects.
   - [WhiteSource](https://www.whitesourcesoftware.com/) - Supports 200+ programming languages.
       - Azure version:
         <https://marketplace.visualstudio.com/items?itemName=whitesource.ws-bolt>
